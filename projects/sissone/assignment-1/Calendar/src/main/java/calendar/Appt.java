@@ -167,7 +167,7 @@ public class Appt{
      */
 	public void setValid() {
 
-		if (startMonth < 1 || startMonth > 12)
+		/*if (startMonth <= 1 || startMonth > 12)
 			this.valid = false;
 		else if (startHour < 0 || startHour > 23)
 			this.valid = false;
@@ -181,7 +181,7 @@ public class Appt{
 				this.valid = false;
 			else
 				this.valid = true;
-		}
+		}*/
 	}
     
 

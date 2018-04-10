@@ -329,7 +329,7 @@ public class DataHandler {
             GregorianCalendar day) {
         //If the appointment does not recur then return null
         if (!appt.isRecurring()) {
-            return null;
+            //return null;
         }
         
         //Leave the original day untouched.
