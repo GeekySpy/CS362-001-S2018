@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="finalprojectB.UrlValidatorTest" time="0.062" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="finalprojectB.UrlValidatorTest" time="0.074" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre/lib/amd64"/>
@@ -57,8 +57,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="finalprojectB.UrlValidatorTest" name="testManualTest" time="0.01"/>
-  <testcase classname="finalprojectB.UrlValidatorTest" name="testYourSecondPartition" time="0.001"/>
-  <testcase classname="finalprojectB.UrlValidatorTest" name="testYourFirstPartition" time="0"/>
-  <testcase classname="finalprojectB.UrlValidatorTest" name="testProgrammingBased" time="0.001"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testManualTest" time="0.009"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testYourSecondPartition" time="0"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testYourFirstPartition" time="0.001"/>
+  <testcase classname="finalprojectB.UrlValidatorTest" name="testProgrammingBased" time="0"/>
 </testsuite>

@@ -2,6 +2,7 @@
 package finalprojectB;
 
 import junit.framework.TestCase;
+import org.junit.Test;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -26,7 +27,6 @@ public class UrlValidatorTest extends TestCase {
     System.out.println("__________Manual Testing__________");
     System.out.println("");
     System.out.println("Testing isValid(): http://google.com");
-    System.out.println("");
 
     boolean expected;
     //Expect to be true, but is false
@@ -172,6 +172,9 @@ public class UrlValidatorTest extends TestCase {
       //When expects a true, its false
 			//assertEquals(urlVal.isValid(urls[i][0]), expected);
 
+
+      //assertTrue( urlVal.isValid( "file:///derp" );
+      //This resulted in a test failure
 		}
 	}
 
